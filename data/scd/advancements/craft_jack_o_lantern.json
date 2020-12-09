@@ -1,0 +1,30 @@
+{
+  "parent": "scd:farm_pumpkin",
+  "display": {
+    "icon": {
+      "item": "minecraft:jack_o_lantern"
+    },
+    "description": "",
+    "title": ""
+  },
+  "criteria": {
+    "jack_o_lantern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:jack_o_lantern",
+            "count": {
+              "min": 10
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "jack_o_lantern"
+    ]
+  ]
+}

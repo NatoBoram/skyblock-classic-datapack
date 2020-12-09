@@ -1,0 +1,30 @@
+{
+  "parent": "scd:craft_green_dye",
+  "display": {
+    "icon": {
+      "item": "minecraft:black_wool"
+    },
+    "description": "",
+    "title": ""
+  },
+  "criteria": {
+    "black_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_wool",
+            "count": {
+              "min": 10
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "black_wool"
+    ]
+  ]
+}

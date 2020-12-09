@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "arcensoth.language-mcfunction",
+    "davidanson.vscode-markdownlint",
+    "editorconfig.editorconfig",
+    "github.vscode-pull-request-github",
+  ]
+}

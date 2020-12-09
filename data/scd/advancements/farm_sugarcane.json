@@ -1,0 +1,23 @@
+{
+  "parent": "scd:farm_pumpkin",
+  "display": {
+    "icon": {
+      "item": "sugar_cane"
+    },
+    "description": "Make a sugarcane farm.",
+    "title": ""
+  },
+  "criteria": {
+    "sugar_cane": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:sugar_cane"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sugar_cane"
+    ]
+  ]
+}

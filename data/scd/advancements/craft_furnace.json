@@ -1,0 +1,27 @@
+{
+  "parent": "scd:craft_torch",
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace"
+    },
+    "description": "",
+    "title": ""
+  },
+  "criteria": {
+    "furnace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:furnace"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "furnace"
+    ]
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cobblestone"
+    },
+    "title": "Welcome to Skyblock Classic!",
+    "description": "Build a Cobble Stone generator."
+  },
+  "criteria": {
+    "cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cobblestone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cobblestone"
+    ]
+  ]
+}

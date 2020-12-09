@@ -1,0 +1,192 @@
+{
+  "parent": "scd:root",
+  "display": {
+    "icon": {
+      "item": "red_bed"
+    },
+    "description": "Craft a bed.",
+    "title": ""
+  },
+  "criteria": {
+    "black_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_bed"
+          }
+        ]
+      }
+    },
+    "red_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_bed"
+          }
+        ]
+      }
+    },
+    "green_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:green_bed"
+          }
+        ]
+      }
+    },
+    "brown_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brown_bed"
+          }
+        ]
+      }
+    },
+    "blue_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blue_bed"
+          }
+        ]
+      }
+    },
+    "purple_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:purple_bed"
+          }
+        ]
+      }
+    },
+    "cyan_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cyan_bed"
+          }
+        ]
+      }
+    },
+    "light_gray_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_gray_bed"
+          }
+        ]
+      }
+    },
+    "gray_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gray_bed"
+          }
+        ]
+      }
+    },
+    "pink_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:pink_bed"
+          }
+        ]
+      }
+    },
+    "lime_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lime_bed"
+          }
+        ]
+      }
+    },
+    "yellow_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:yellow_bed"
+          }
+        ]
+      }
+    },
+    "light_blue_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_blue_bed"
+          }
+        ]
+      }
+    },
+    "magenta_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:magenta_bed"
+          }
+        ]
+      }
+    },
+    "orange_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:orange_bed"
+          }
+        ]
+      }
+    },
+    "white_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_bed"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "black_bed",
+      "red_bed",
+      "green_bed",
+      "brown_bed",
+      "blue_bed",
+      "purple_bed",
+      "cyan_bed",
+      "light_gray_bed",
+      "gray_bed",
+      "pink_bed",
+      "lime_bed",
+      "yellow_bed",
+      "light_blue_bed",
+      "magenta_bed",
+      "orange_bed",
+      "white_bed"
+    ]
+  ]
+}

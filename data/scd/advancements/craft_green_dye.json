@@ -1,0 +1,30 @@
+{
+  "parent": "scd:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:green_dye"
+    },
+    "description": "",
+    "title": ""
+  },
+  "criteria": {
+    "green_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:green_dye",
+            "count": {
+              "min": 10
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "green_dye"
+    ]
+  ]
+}

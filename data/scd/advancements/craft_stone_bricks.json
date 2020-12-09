@@ -1,0 +1,30 @@
+{
+  "parent": "scd:root",
+  "display": {
+    "icon": {
+      "item": "stone_bricks"
+    },
+    "description": "",
+    "title": ""
+  },
+  "criteria": {
+    "stone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stone_bricks",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "stone_bricks"
+    ]
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "scd:farm_sugarcane",
+  "display": {
+    "icon": {
+      "item": "wheat"
+    },
+    "description": "Make a wheat farm.",
+    "title": ""
+  },
+  "criteria": {
+    "wheat": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:wheat"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wheat"
+    ]
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "parent": "scd:farm_wheat",
+  "display": {
+    "icon": {
+      "item": "red_mushroom"
+    },
+    "description": "Make a giant red mushroom.",
+    "title": ""
+  },
+  "criteria": {
+    "bone_meal": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "item": "minecraft:bone_meal"
+        },
+        "location": {
+          "block": {
+            "block": "minecraft:red_mushroom",
+            "light": {
+              "max": 12
+            }
+          }
+        }
+      }
+    },
+    "red_mushroom_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_mushroom_block"
+          }
+        ]
+      }
+    },
+    "red_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_mushroom",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bone_meal",
+      "red_mushroom_block"
+    ],
+    [
+      "bone_meal",
+      "red_mushroom"
+    ]
+  ]
+}

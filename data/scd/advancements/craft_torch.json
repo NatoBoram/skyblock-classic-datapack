@@ -1,0 +1,30 @@
+{
+  "parent": "scd:craft_bed",
+  "display": {
+    "icon": {
+      "item": "minecraft:torch"
+    },
+    "description": "",
+    "title": ""
+  },
+  "criteria": {
+    "torch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:torch",
+            "count": {
+              "min": 20
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "torch"
+    ]
+  ]
+}

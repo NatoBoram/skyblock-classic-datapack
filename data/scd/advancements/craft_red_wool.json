@@ -1,0 +1,30 @@
+{
+  "parent": "scd:craft_lime_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:red_wool"
+    },
+    "description": "",
+    "title": ""
+  },
+  "criteria": {
+    "red_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_wool",
+            "count": {
+              "min": 10
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "red_wool"
+    ]
+  ]
+}

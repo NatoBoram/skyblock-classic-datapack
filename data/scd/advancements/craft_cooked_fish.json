@@ -1,0 +1,46 @@
+{
+  "parent": "scd:craft_ender_pearl",
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_cod"
+    },
+    "description": "",
+    "title": ""
+  },
+  "criteria": {
+    "cooked_cod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cooked_cod",
+            "count": {
+              "min": 10
+            }
+          }
+        ]
+      }
+    },
+    "cooked_salmon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cooked_salmon",
+            "count": {
+              "min": 10
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cooked_cod"
+    ],
+    [
+      "cooked_salmon"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "scd:craft_furnace",
+  "display": {
+    "icon": {
+      "item": "minecraft:bookshelf"
+    },
+    "description": "",
+    "title": "",
+    "frame": "challenge"
+  },
+  "criteria": {
+    "bookshelf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bookshelf",
+            "count": {
+              "min": 10
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bookshelf"
+    ]
+  ]
+}

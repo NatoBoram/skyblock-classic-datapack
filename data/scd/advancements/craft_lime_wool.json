@@ -1,0 +1,30 @@
+{
+  "parent": "scd:craft_light_gray_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:lime_wool"
+    },
+    "description": "",
+    "title": ""
+  },
+  "criteria": {
+    "lime_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lime_wool",
+            "count": {
+              "min": 10
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "lime_wool"
+    ]
+  ]
+}

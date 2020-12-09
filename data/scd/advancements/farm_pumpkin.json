@@ -1,0 +1,23 @@
+{
+  "parent": "scd:farm_melon",
+  "display": {
+    "icon": {
+      "item": "minecraft:pumpkin"
+    },
+    "description": "Make a pumpkin farm.",
+    "title": "The cutest pumpkin in the patch"
+  },
+  "criteria": {
+    "pumpkin_stem": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:pumpkin_stem"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pumpkin_stem"
+    ]
+  ]
+}

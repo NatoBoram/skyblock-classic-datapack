@@ -1,0 +1,30 @@
+{
+  "parent": "scd:craft_black_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:gray_wool"
+    },
+    "description": "",
+    "title": ""
+  },
+  "criteria": {
+    "gray_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gray_wool",
+            "count": {
+              "min": 10
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gray_wool"
+    ]
+  ]
+}

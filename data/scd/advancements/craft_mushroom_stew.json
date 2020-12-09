@@ -1,0 +1,30 @@
+{
+  "parent": "scd:farm_red_mushroom",
+  "display": {
+    "icon": {
+      "item": "mushroom_stew"
+    },
+    "description": "",
+    "title": ""
+  },
+  "criteria": {
+    "mushroom_stew": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:mushroom_stew",
+            "count": {
+              "min": 10
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mushroom_stew"
+    ]
+  ]
+}

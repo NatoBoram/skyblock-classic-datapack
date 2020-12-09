@@ -1,0 +1,23 @@
+{
+  "parent": "scd:root",
+  "display": {
+    "icon": {
+      "item": "melon"
+    },
+    "description": "Make a melon farm.",
+    "title": "One in a melon"
+  },
+  "criteria": {
+    "melon_stem": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:melon_stem"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "melon_stem"
+    ]
+  ]
+}

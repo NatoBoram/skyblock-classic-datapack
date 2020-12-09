@@ -1,0 +1,30 @@
+{
+  "parent": "scd:farm_wheat",
+  "display": {
+    "icon": {
+      "item": "minecraft:bread"
+    },
+    "description": "",
+    "title": ""
+  },
+  "criteria": {
+    "bread": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bread",
+            "count": {
+              "min": 10
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bread"
+    ]
+  ]
+}
