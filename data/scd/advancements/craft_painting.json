@@ -1,21 +1,21 @@
 {
-  "parent": "scd:craft_light_gray_wool",
+  "parent": "scd:craft_bookshelf",
   "display": {
     "icon": {
-      "item": "minecraft:lime_wool"
+      "item": "minecraft:painting"
     },
-    "description": "Craft 10 lime wool.",
-    "title": "Chill out"
+    "description": "Craft 20 paintings.",
+    "title": "Silent poetry"
   },
   "criteria": {
-    "lime_wool": {
+    "painting": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:lime_wool",
+            "item": "minecraft:painting",
             "count": {
-              "min": 10
+              "min": 20
             }
           }
         ]
@@ -24,7 +24,7 @@
   },
   "requirements": [
     [
-      "lime_wool"
+      "painting"
     ]
   ]
 }

@@ -4,8 +4,8 @@
     "icon": {
       "item": "minecraft:cooked_cod"
     },
-    "description": "",
-    "title": ""
+    "description": "Cook 10 fish.",
+    "title": "Different kettle of fish"
   },
   "criteria": {
     "cooked_cod": {

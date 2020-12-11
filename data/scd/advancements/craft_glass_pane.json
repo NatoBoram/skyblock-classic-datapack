@@ -1,21 +1,21 @@
 {
-  "parent": "scd:craft_light_gray_wool",
+  "parent": "scd:craft_painting",
   "display": {
     "icon": {
-      "item": "minecraft:lime_wool"
+      "item": "minecraft:glass_pane"
     },
-    "description": "Craft 10 lime wool.",
-    "title": "Chill out"
+    "description": "Craft 16 glass panes.",
+    "title": "Perfectly clear"
   },
   "criteria": {
-    "lime_wool": {
+    "glass_pane": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:lime_wool",
+            "item": "minecraft:glass_pane",
             "count": {
-              "min": 10
+              "min": 16
             }
           }
         ]
@@ -24,7 +24,7 @@
   },
   "requirements": [
     [
-      "lime_wool"
+      "glass_pane"
     ]
   ]
 }

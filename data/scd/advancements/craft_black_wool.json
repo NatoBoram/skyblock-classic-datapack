@@ -4,8 +4,8 @@
     "icon": {
       "item": "minecraft:black_wool"
     },
-    "description": "",
-    "title": ""
+    "description": "Craft 10 black wool.",
+    "title": "Be in the black"
   },
   "criteria": {
     "black_wool": {

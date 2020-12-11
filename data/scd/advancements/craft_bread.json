@@ -4,8 +4,8 @@
     "icon": {
       "item": "minecraft:bread"
     },
-    "description": "",
-    "title": ""
+    "description": "Make 10 breads.",
+    "title": "Staff of life"
   },
   "criteria": {
     "bread": {

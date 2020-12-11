@@ -1,0 +1,23 @@
+{
+  "parent": "scd:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:obsidian"
+    },
+    "description": "Build and light a nether portal.",
+    "title": "Broke loose"
+  },
+  "criteria": {
+    "entered_nether": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "entered_nether"
+    ]
+  ]
+}

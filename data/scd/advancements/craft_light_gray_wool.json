@@ -4,8 +4,8 @@
     "icon": {
       "item": "minecraft:light_gray_wool"
     },
-    "description": "",
-    "title": ""
+    "description": "Craft 10 light gray wool.",
+    "title": "Clouds passing by"
   },
   "criteria": {
     "light_gray_wool": {

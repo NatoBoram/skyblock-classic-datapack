@@ -4,8 +4,8 @@
     "icon": {
       "item": "mushroom_stew"
     },
-    "description": "",
-    "title": ""
+    "description": "Make 10 mushroom stew.",
+    "title": "Organically certified"
   },
   "criteria": {
     "mushroom_stew": {

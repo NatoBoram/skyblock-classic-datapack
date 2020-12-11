@@ -4,8 +4,8 @@
     "icon": {
       "item": "minecraft:bookshelf"
     },
-    "description": "",
-    "title": "",
+    "description": "Craft 10 bookshelves.",
+    "title": "Behind the shrink",
     "frame": "challenge"
   },
   "criteria": {

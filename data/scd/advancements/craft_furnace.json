@@ -4,8 +4,8 @@
     "icon": {
       "item": "minecraft:furnace"
     },
-    "description": "",
-    "title": ""
+    "description": "Craft a furnace.",
+    "title": "Bark up the wrong tree"
   },
   "criteria": {
     "furnace": {

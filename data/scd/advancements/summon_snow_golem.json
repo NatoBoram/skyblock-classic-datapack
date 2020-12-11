@@ -1,0 +1,60 @@
+{
+  "parent": "scd:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "title": "",
+    "description": "",
+    "frame": "goal"
+  },
+  "criteria": {
+    "snow_golem": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:snow_golem"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "carved_pumpkin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:carved_pumpkin",
+            "count": {
+              "min": 10
+            }
+          }
+        ]
+      }
+    },
+    "snow_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:snow_block",
+            "count": {
+              "min": 20
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "snow_golem",
+      "carved_pumpkin",
+      "snow_block"
+    ]
+  ]
+}

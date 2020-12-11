@@ -1,21 +1,21 @@
 {
-  "parent": "scd:craft_light_gray_wool",
+  "parent": "scd:craft_bread",
   "display": {
     "icon": {
-      "item": "minecraft:lime_wool"
+      "item": "minecraft:birch_log"
     },
-    "description": "Craft 10 lime wool.",
-    "title": "Chill out"
+    "description": "Collect 50 birch logs.",
+    "title": "Bring back the birch"
   },
   "criteria": {
-    "lime_wool": {
+    "birch_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:lime_wool",
+            "item": "minecraft:birch_log",
             "count": {
-              "min": 10
+              "min": 50
             }
           }
         ]
@@ -24,7 +24,7 @@
   },
   "requirements": [
     [
-      "lime_wool"
+      "birch_log"
     ]
   ]
 }

@@ -4,8 +4,9 @@
     "icon": {
       "item": "minecraft:gray_wool"
     },
-    "description": "",
-    "title": ""
+    "description": "Craft 10 gray wool.",
+    "title": "In the dark",
+    "hidden": false
   },
   "criteria": {
     "gray_wool": {

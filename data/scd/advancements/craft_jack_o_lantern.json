@@ -4,8 +4,8 @@
     "icon": {
       "item": "minecraft:jack_o_lantern"
     },
-    "description": "",
-    "title": ""
+    "description": "Craft 10 jack o' lanterns.",
+    "title": "The lad"
   },
   "criteria": {
     "jack_o_lantern": {

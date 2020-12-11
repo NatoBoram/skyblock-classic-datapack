@@ -1,0 +1,39 @@
+{
+  "parent": "scd:craft_ender_pearl",
+  "display": {
+    "icon": {
+      "item": "minecraft:bow"
+    },
+    "description": "Collect 64 arrows and craft a bow.",
+    "title": "Bow and arrow"
+  },
+  "criteria": {
+    "bow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bow"
+          }
+        ]
+      }
+    },
+    "arrow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:arrow",
+            "count": 64
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bow",
+      "arrow"
+    ]
+  ]
+}

@@ -1,19 +1,19 @@
 {
-  "parent": "scd:craft_light_gray_wool",
+  "parent": "scd:craft_yellow_wool",
   "display": {
     "icon": {
-      "item": "minecraft:lime_wool"
+      "item": "minecraft:pink_wool"
     },
-    "description": "Craft 10 lime wool.",
-    "title": "Chill out"
+    "description": "Craft 10 pink wool.",
+    "title": "In the pink"
   },
   "criteria": {
-    "lime_wool": {
+    "pink_wool": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:lime_wool",
+            "item": "minecraft:pink_wool",
             "count": {
               "min": 10
             }
@@ -24,7 +24,7 @@
   },
   "requirements": [
     [
-      "lime_wool"
+      "pink_wool"
     ]
   ]
 }

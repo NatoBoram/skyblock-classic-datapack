@@ -4,8 +4,8 @@
     "icon": {
       "item": "minecraft:green_dye"
     },
-    "description": "",
-    "title": ""
+    "description": "Make 10 green dye.",
+    "title": "Salad days"
   },
   "criteria": {
     "green_dye": {
